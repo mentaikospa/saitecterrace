@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サイテクテラス公式ホームページ</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="scss/style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://kit.fontawesome.com/b62f62c8b7.js" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('.bxslider').bxSlider({
+                auto: true, // 自動でスライドショーをスタートさせる　（初期値: false）
+                mode: 'fade', // アニメーションの種類「'horizontal'」「'vertical'」「'fade'」　（初期値: 'horizontal'）
+                speed: 500, // アニメーションのスピード　（初期値: 500）
+                pause: 4000, // 画像の切り替わる間隔　（初期値: 4000）
+                pager: false, // 下部にある画像切り替えボタンの表示・非表示　（初期値: true）
+                controls: false // 左右の矢印の表示・非表示　（初期値: true）
+            });
+        });
+    </script>
+</head>
+
+<body id="home">
+    <div class="page">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/"><i class="fas fa-home"></i>HOME</a></li>
+                    <li><a href="about.index"><i class="fas fa-info-circle"></i>ABOUT</a></li>
+                    <li><a href="menu.html"><i class="fas fa-utensils"></i>MENU</a></li>
+                    <li class="logo"><a href="/">SCI.TEC.<br>TERRACE</a></li>
+                    <li><a href="news.html"><i class="fas fa-newspaper"></i>NEWS</a></li>
+                    <li><a href="access.html"><i class="fas fa-map-marker-alt"></i>ACCESS</a></li>
+                    <li><a href="contact.html"><i class="far fa-envelope"></i>CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="main-image">
+                <div class="bxslider">
+                    <div><img src="images/main-image-home1@2x.jpg"></div>
+                    <div><img src="images/main-image-home2@2x.jpg"></div>
+                    <div><img src="images/main-image-home3@2x.jpg"></div>
+                </div>
+            </div>
+            <div class="catch">
+                <p>サイテクテラスで最高の時間をお楽しみください</p>
+            </div>
+            <div class="recommend">
+                <h2 class="section-titles">おすすめメニュー</h2>
+                <!-- <div class="menu-topic"> -->
+                <section>
+                    <a href="">
+                        <img src="images/menu-lunch.jpg" alt="ランチメニュー">
+                        <h3>LUNCH MENU</h3>
+                    </a>
+                </section>
+                <section>
+                    <a href="">
+                        <img src="images/menu-dinner.jpg" alt="ディナーメニュー">
+                        <h3>DINNER MENU</h3>
+                    </a>
+                </section>
+                <section>
+                    <a href="">
+                        <img src="images/menu-drink.jpg" alt="ドリンクメニュー">
+                        <h3>DRINK MENU</h3>
+                    </a>
+                </section>
+                <!-- </div> -->
+            </div>
+            <div class="info">
+                <h2 class="section-titles">お知らせ</h2>
+                <ul>
+                    <li>
+                        <time datetime="2020-10-10">2020年10月10日</time>
+                        <a href="">「秋の味覚フェアー」開催</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <time datetime="2020-09-01">2020年09月01日</time>
+                        <a href="">数量限定「敬老の日特別メニュー」予約受付開始</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <time datetime="2020-08-06">2020年08月06日</time>
+                        <a href="">「グラスワイン飲み比べ」イベント開催</a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <address>SCI.TEC. TERRACE<br>
+                住所：沖縄県宜野湾市新城1-24-13　ご予約：098-894-1838
+            </address>
+            <p><small>Copyright c 2015 Your Name All Rights Reserved.</small></p>
+        </footer>
+    </div>
+</body>
+
+</html>

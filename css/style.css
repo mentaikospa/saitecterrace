@@ -1,0 +1,254 @@
+/*------------------------
+　　全体構造
+------------------------*/
+body {
+    font-family: 'Comfortaa', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+    background-image: url(../images/bg-body.png);
+}
+
+.section-titles {
+    color: #fff;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+
+ol, ul {
+    list-style-type: none;
+  }
+
+  :not(#home) main {
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #fff;
+  }
+
+  :not(#home) .main-content h2 {
+    height: 150px;
+    line-height: 150px;
+    font-size: 40px;
+    background-image: url(../images/bg-h2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*------------------------
+　　ヘッダー
+------------------------*/
+header {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header ul {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.6;
+    display: inline-block;
+}
+
+header ul li i {
+    font-size: 30px;
+    line-height: 1.33;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin-bottom: 5px;
+}
+
+header .logo {
+    width: 220px;
+    height: 100px;
+    margin: 25px 20px 0 20px ;
+    text-align: center;
+}
+
+header .logo a {
+    font-size: 40px;
+    line-height: 1;
+}
+
+
+/*------------------------
+　　メイン
+------------------------*/
+:not(#home) main .main-image {
+   width: 800px;
+   margin: 0 auto;
+   box-shadow: 10px 10px 50px #000;
+}
+
+#home main .main-image {
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 50px #000;
+}
+
+
+
+/*------------------------
+　　フッター
+------------------------*/
+footer {
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+footer address {
+    line-height: 1.6;
+    margin: 15px 0 10px 0;
+}
+
+
+/*------------------------
+　　トップページ
+------------------------*/
+#home main .catch{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+#home main .recommend {
+    margin-bottom: 60px;
+}
+
+#home main .recommend section {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 10px #000;
+}
+
+#home main .recommend section h3 {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+}
+
+#home main .recommend section a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+#home main .recommend .menu-topic {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home main .info {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+    font-size: 15px;
+}
+
+#home main .info li {
+    margin-bottom: 20px;
+}
+
+#home main .info time {
+    color: #fff;
+    margin-right: 10px;
+}
+
+#home main .info a {
+    margin-right: 50px;
+    color: #ffcc00;
+}
+
+/*------------------------
+　　メニューページ
+------------------------*/
+#menu .main-content {
+    color: #fff;
+    text-align: center;
+}
+
+
+#menu .main-content h3 {
+    font-size: 20px;
+    line-height: 1.75;
+    margin-bottom: 60px;
+}
+
+#menu .main-content h4 {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+#menu .main-content p {
+    margin-bottom: 40px;
+    line-height: 1.71;
+}
+
+#menu .main-content p:last-child {
+    margin-bottom: 60px;
+}
+
+/*------------------------
+　　アクセスページ
+------------------------*/
+#menu .main-content h3 {
+    font-size: 20px;
+    line-height: 1.75;
+    margin-bottom: 40px;
+}
+
+#menu .main-content iframe {
+    margin-bottom: 40px;
+}
+
+#menu .main-content address {
+    font-size: 14px;
+    margin-bottom: 60px;
+}

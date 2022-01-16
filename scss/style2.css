@@ -1,0 +1,239 @@
+@charset "UTF-8";
+body {
+  font-family: 'Comfortaa', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  background-image: url(../images/bg-body.png);
+  background-color: #3e2723;
+}
+
+a {
+  color: #ffcc00;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+header ul {
+  margin: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  list-style-type: none;
+}
+
+header li {
+  width: 100px;
+  height: 100px;
+  margin: 0 5px;
+}
+
+header .logo {
+  width: 220px;
+  margin: 0 15px;
+}
+
+header .logo a {
+  font-size: 40px;
+  text-align: center;
+}
+
+header a {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+header i {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+footer {
+  height: 110px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+footer address {
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+#home main h2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  font-size: 25px;
+  height: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#home main .main-image {
+  margin-bottom: 60px;
+  -webkit-box-shadow: 0 0 10px #000;
+          box-shadow: 0 0 10px #000;
+}
+
+#home main .main-image .bx-wrapper {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  left: 0;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+#home main .main-image img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#home main .catch {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+
+#home main .catch p {
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+#home main .recommend {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 25px;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 60px;
+}
+
+#home main .recommend section {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 10px #000;
+          box-shadow: 0 0 10px #000;
+}
+
+#home main .recommend section a {
+  color: #fff;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+}
+
+#home main .info {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#home main .info li {
+  line-height: 24px;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+#home main .info time {
+  margin-right: 20px;
+  width: 120px;
+  display: inline-block;
+  text-align: right;
+}
+
+#menu main {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+
+#menu main .main-image img {
+  -webkit-box-shadow: 0 0 10px #000;
+          box-shadow: 0 0 10px #000;
+}
+
+#menu main h2 {
+  height: 150px;
+  font-size: 40px;
+  line-height: 150px;
+  background-image: url(../images/bg-h2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#menu main h3 {
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 60px;
+}
+
+#menu main h4 {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#menu main p {
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#menu main p:last-child {
+  margin-bottom: 60px;
+}
+/*# sourceMappingURL=style2.css.map */
